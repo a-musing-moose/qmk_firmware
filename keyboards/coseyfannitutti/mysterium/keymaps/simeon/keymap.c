@@ -8,13 +8,14 @@ enum custom_keycodes {
 };
 
 const char *const lines[] = {
-    "Thanks from all the companies you have helped in the last 9 years:\n",
+    "Thank you from all the companies you have helped in the last 9 years:\n",
     "\n",
     "- Art Processors\n",
     "- Aussie Farmers Direct\n",
     "- Bared\n",
     "- CH2\n",
     "- Dimeo\n",
+    "- Edrolo\n",
     "- Kraken Technologies\n",
     "- Loop11\n",
     "- MEERQAT\n",
@@ -25,7 +26,7 @@ const char *const lines[] = {
     "- Ynomia\n",
     "...\n"
     "\n",
-    "And most of all Common Code, and all of us who have called her home.\n",
+    "And most of all, Common Code, and all of us who have called her home.\n",
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
